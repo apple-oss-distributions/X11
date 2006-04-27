@@ -2,7 +2,7 @@
 /*
  * $Workfile: nsc_fourcc.h $
  * $Revision: 1.1.1.1 $
- * $Author: jharper $
+ * $Author: akosut $
  *
  * File Contents: This file consists of main Xfree video macro definitions.
  *

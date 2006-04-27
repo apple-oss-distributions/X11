@@ -700,10 +700,5 @@ QuartzClientMessage (const xEvent *xe)
 	QuartzSetRootless (xe->u.clientMessage.u.l.longs0);
 	if (!quartzEnableRootless && !quartzHasRoot)
 	    QuartzHide ();
-	break;
-
-    case kXquartzBringAllToFront:
-	RootlessOrderAllWindows ();
-	break;
     }
 }

@@ -1,5 +1,5 @@
 /* dri_dispatch.h -- built automatically, DO NOT EDIT
-   $Id: dri_dispatch.h,v 1.9 2004/07/16 19:09:24 jharper Exp $
+   $Id: dri_dispatch.h,v 1.1.1.1 2005/02/24 22:37:39 akosut Exp $
    $XFree86: xc/lib/GL/apple/dri_dispatch.h,v 1.5 2004/01/17 00:38:12 torrey Exp $ */
 
 DEFUN_LOCAL_VOID (NewList,

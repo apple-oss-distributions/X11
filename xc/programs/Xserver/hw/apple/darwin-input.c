@@ -1,5 +1,5 @@
 /* darwin-input.c -- code to manage the input event queue
-   $Id: darwin-input.c,v 1.4 2002/12/13 00:22:51 jharper Exp $ */
+   $Id: darwin-input.c,v 1.1.1.1 2005/02/24 22:39:00 akosut Exp $ */
 
 /*
  * Copyright (c) 2001-2002 Torrey T. Lyons. All Rights Reserved.

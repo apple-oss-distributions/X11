@@ -35,8 +35,8 @@
 /*
  * trimregion.h
  *
- * $Date$ $Revision$
- * $Header: //depot/main/gfx/lib/glu/libnurbs/internals/trimregion.h#5 $
+ * $Date: 2005/02/24 22:36:52 $ $Revision: 1.1.1.1 $
+ * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/internals/trimregion.h,v 1.1.1.1 2005/02/24 22:36:52 akosut Exp $
  */
 
 #ifndef __glutrimregion_h_

@@ -2,7 +2,7 @@
 /*
  * $Workfile: nsc_gx2_shadow.c $
  * $Revision: 1.1.1.1 $
- * $Author: jharper $
+ * $Author: akosut $
  *
  * File Contents: Direct graphics display routines are implemented and 
  *                graphics rendering are all done in memory.

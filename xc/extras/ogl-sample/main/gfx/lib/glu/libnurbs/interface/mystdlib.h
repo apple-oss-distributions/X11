@@ -35,8 +35,8 @@
 /*
  * mystdlib.h
  *
- * $Date$ $Revision$
- * $Header: //depot/main/gfx/lib/glu/libnurbs/interface/mystdlib.h#3 $
+ * $Date: 2005/02/24 22:36:48 $ $Revision: 1.1.1.1 $
+ * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/interface/mystdlib.h,v 1.1.1.1 2005/02/24 22:36:48 akosut Exp $
  */
 
 #ifndef __glumystdlib_h_

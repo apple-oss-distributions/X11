@@ -35,8 +35,8 @@
 /*
  * trimvertexpool.h
  *
- * $Date$ $Revision$
- * $Header: //depot/main/gfx/lib/glu/libnurbs/internals/trimvertpool.h#4 $
+ * $Date: 2005/02/24 22:36:52 $ $Revision: 1.1.1.1 $
+ * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/internals/trimvertpool.h,v 1.1.1.1 2005/02/24 22:36:52 akosut Exp $
  */
 
 #ifndef __glutrimvertpool_h_

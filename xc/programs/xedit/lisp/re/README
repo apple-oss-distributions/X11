@@ -1,6 +1,6 @@
 $XFree86: xc/programs/xedit/lisp/re/README,v 1.4 2002/11/15 07:01:32 paulo Exp $
 
-LAST UPDATED:	$Date: 2003/03/13 23:58:55 $
+LAST UPDATED:	$Date: 2005/02/24 22:40:42 $
 
   This is a small regex library for fast matching tokens in text. It was built
 to be used by xedit and it's syntax highlight code. It is not compliant with

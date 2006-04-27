@@ -1,5 +1,5 @@
 #
-# $Header: //depot/main/gfx/lib/glu/Distfile#4 $
+# $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/Distfile,v 1.1.1.1 2005/02/24 22:36:48 akosut Exp $
 #
 
 DISTDIR_SI = /xc/lib/GL/glu

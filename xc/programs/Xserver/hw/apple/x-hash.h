@@ -1,5 +1,5 @@
 /* x-hash.h -- basic hash table class
-   $Id: x-hash.h,v 1.4 2003/04/16 00:42:14 jharper Exp $
+   $Id: x-hash.h,v 1.1.1.1 2005/02/24 22:39:01 akosut Exp $
 
    Copyright (c) 2002 Apple Computer, Inc. All rights reserved.
 

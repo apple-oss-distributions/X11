@@ -65,7 +65,7 @@ char rcsId_vmware[] =
 
 static const char VMWAREBuildStr[] = "VMware Guest X Server " 
     VMW_STRING(VMWARE_MAJOR_VERSION) "." VMW_STRING(VMWARE_MINOR_VERSION)
-    "." VMW_STRING(VMWARE_PATCHLEVEL) " - build=$Name:  $\n";
+    "." VMW_STRING(VMWARE_PATCHLEVEL) " - build=$Name: X11-0-40-80 $\n";
 
 static SymTabRec VMWAREChipsets[] = {
     { PCI_CHIP_VMWARE0405, "vmware0405" },
@@ -326,7 +326,7 @@ VMXGetVMwareSvgaId(VMWAREPtr pVMWARE)
  *
  *  RewriteTagString --
  *
- *      Rewrites the given string, removing the $Name:  $, and
+ *      Rewrites the given string, removing the $Name: X11-0-40-80 $, and
  *      replacing it with the contents.  The output string must
  *      have enough room, or else.
  *

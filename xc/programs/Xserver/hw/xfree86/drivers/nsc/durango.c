@@ -2,7 +2,7 @@
 /*
  * $Workfile: durango.c $
  * $Revision: 1.1.1.1 $
- * $Author: jharper $
+ * $Author: akosut $
  *
  * This is the main file used to add Durango graphics support to a software 
  * project.  The main reason to have a single file include the other files

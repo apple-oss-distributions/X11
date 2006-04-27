@@ -2,7 +2,7 @@
 /*
  * $Workfile: nsc_galstub.c $
  * $Revision: 1.1.1.1 $
- * $Author: jharper $
+ * $Author: akosut $
  *
  * File Contents: This file contains the file inclusions of the GAL
  *

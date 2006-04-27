@@ -31,12 +31,12 @@
 ** published by SGI, but has not been independently verified as being
 ** compliant with the OpenGL(R) version 1.2.1 Specification.
 **
-** $Date$ $Revision$
+** $Date: 2005/02/24 22:36:54 $ $Revision: 1.1.1.1 $
 */
 /* $XFree86: xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/nurbtess/sampledLine.cc,v 1.2 2003/10/22 19:20:58 tsi Exp $ */
 
 /*
-** $Header: //depot/main/gfx/lib/glu/libnurbs/nurbtess/sampledLine.cc#4 $
+** $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/nurbtess/sampledLine.cc,v 1.1.1.1 2005/02/24 22:36:54 akosut Exp $
 */
 
 #include <stdlib.h>

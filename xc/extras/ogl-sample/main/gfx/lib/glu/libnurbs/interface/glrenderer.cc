@@ -31,10 +31,10 @@
 ** published by SGI, but has not been independently verified as being
 ** compliant with the OpenGL(R) version 1.2.1 Specification.
 **
-** $Date$ $Revision$
+** $Date: 2005/02/24 22:36:48 $ $Revision: 1.1.1.1 $
 */
 /*
-** $Header: //depot/main/gfx/lib/glu/libnurbs/interface/glrenderer.cc#4 $
+** $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/interface/glrenderer.cc,v 1.1.1.1 2005/02/24 22:36:48 akosut Exp $
 */
 
 #include "gluos.h"

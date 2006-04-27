@@ -1,6 +1,6 @@
 /*
    quartzKeyboard.c
-   $Id: quartzKeyboard.c,v 1.1.1.1 2004/07/15 23:10:11 jharper Exp $
+   $Id: quartzKeyboard.c,v 1.1.1.1 2005/02/24 22:39:03 akosut Exp $
 
    Code to build a keymap using the Carbon Keyboard Layout API,
    which is supported on Mac OS X 10.2 and newer.

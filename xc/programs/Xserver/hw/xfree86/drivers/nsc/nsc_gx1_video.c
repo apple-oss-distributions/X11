@@ -1,8 +1,8 @@
 /* $XFree86: xc/programs/Xserver/hw/xfree86/drivers/nsc/nsc_gx1_video.c,v 1.8 2003/11/10 18:22:23 tsi Exp $ */
 /*
  * $Workfile: nsc_gx1_video.c $
- * $Revision: 1.1.1.2 $
- * $Author: jharper $
+ * $Revision: 1.1.1.1 $
+ * $Author: akosut $
  *
  * File Contents: This file consists of main Xfree video supported routines.
  *

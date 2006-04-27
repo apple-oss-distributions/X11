@@ -35,7 +35,7 @@
 /*
  * mystdlib.h
  *
- * $Header: //depot/main/gfx/lib/glu/include/mystdlib.h#1 $
+ * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/nurbtess/mystdlib.h,v 1.1.1.1 2005/02/24 22:36:52 akosut Exp $
  */
 
 #ifndef __glumystdlib_h_

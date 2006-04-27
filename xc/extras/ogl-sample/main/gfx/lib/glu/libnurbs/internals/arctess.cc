@@ -36,8 +36,8 @@
 /*
  * arctessellator.c++
  *
- * $Date$ $Revision$
- * $Header: //depot/main/gfx/lib/glu/libnurbs/internals/arctess.cc#4 $
+ * $Date: 2005/02/24 22:36:49 $ $Revision: 1.1.1.1 $
+ * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/internals/arctess.cc,v 1.1.1.1 2005/02/24 22:36:49 akosut Exp $
  */
 
 #include "glimports.h"

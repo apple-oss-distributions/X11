@@ -32,8 +32,8 @@
 # published by SGI, but has not been independently verified as being
 # compliant with the OpenGL(R) version 1.2.1 Specification.
 #
-# $Date$ $Revision$
-# $Header: //depot/main/doc/man/tools/mdate.pl#3 $
+# $Date: 2005/02/24 22:36:48 $ $Revision: 1.1.1.1 $
+# $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/doc/man/tools/mdate.pl,v 1.1.1.1 2005/02/24 22:36:48 akosut Exp $
 
 foreach (@ARGV) {
     ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size,$atime,

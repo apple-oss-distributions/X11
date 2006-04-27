@@ -1,5 +1,5 @@
 /* X11Controller.m -- connect the IB ui, also the NSApp delegate
-   $Id: X11Controller.m,v 1.39 2005/01/05 07:49:25 jharper Exp $
+   $Id: X11Controller.m,v 1.1.1.1 2005/02/24 22:39:00 akosut Exp $
 
    Copyright (c) 2002 Apple Computer, Inc. All rights reserved.
 

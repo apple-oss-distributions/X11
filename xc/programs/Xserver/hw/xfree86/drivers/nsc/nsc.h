@@ -1,8 +1,8 @@
 /* $XFree86: xc/programs/Xserver/hw/xfree86/drivers/nsc/nsc.h,v 1.6 2003/11/03 05:11:20 tsi Exp $ */
 /*
  * $Workfile: nsc.h $
- * $Revision: 1.1.1.2 $
- * $Author: jharper $
+ * $Revision: 1.1.1.1 $
+ * $Author: akosut $
  *
  * File Contents: This file contains the data structures Geode driver.
  *

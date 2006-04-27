@@ -279,10 +279,6 @@ XpmCreateXpmImageFromImage(display, image, shapeimage,
      */
 
     if (image) {
-	if (image->depth < 0 || image->depth > 32 ||
-	    image->bits_per_pixel < 0 || image->bits_per_pixel > 32 ||
-	    image->bitmap_unit < 0 || image->bitmap_unit > 32)
-	    return (XpmNoMemory);
 #ifndef FOR_MSW
 # ifndef AMIGA
 	if (((image->bits_per_pixel | image->depth) == 1)  &&
@@ -625,8 +621,7 @@ GetImagePixels(image, width, height, pmap)
     char *dst;
     unsigned int *iptr;
     char *data;
-    unsigned int x, y;
-    int i;
+    unsigned int x, y, i;
     int bits, depth, ibu, ibpp, offset;
     unsigned long lbt;
     Pixel pixel, px;

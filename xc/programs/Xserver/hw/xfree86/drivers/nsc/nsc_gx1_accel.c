@@ -1,8 +1,8 @@
 /* $XFree86: xc/programs/Xserver/hw/xfree86/drivers/nsc/nsc_gx1_accel.c,v 1.8 2003/12/07 23:18:16 alanh Exp $ */
 /*
  * $Workfile: nsc_gx1_accel.c $
- * $Revision: 1.1.1.2 $
- * $Author: jharper $
+ * $Revision: 1.1.1.1 $
+ * $Author: akosut $
  *
  * File Contents: This file is consists of main Xfree
  *                acceleration supported routines like solid fill used

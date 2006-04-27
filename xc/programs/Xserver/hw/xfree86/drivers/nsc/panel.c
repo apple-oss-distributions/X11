@@ -2,7 +2,7 @@
 /*
  * $Workfile: panel.c $
  * $Revision: 1.1.1.1 $
- * $Author: jharper $
+ * $Author: akosut $
  *
  * File Contents: This file contailns the panel include files and 
  *                external pointer to the hardware.

@@ -35,8 +35,8 @@
 /*
 ** Author: Eric Veach, July 1994.
 **
-** $Date$ $Revision$
-** $Header: //depot/main/gfx/lib/glu/libtess/tess.h#6 $
+** $Date: 2005/02/24 22:36:54 $ $Revision: 1.1.1.1 $
+** $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libtess/tess.h,v 1.1.1.1 2005/02/24 22:36:54 akosut Exp $
 */
 
 #ifndef __tess_h_

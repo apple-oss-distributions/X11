@@ -31,10 +31,10 @@
 ** published by SGI, but has not been independently verified as being
 ** compliant with the OpenGL(R) version 1.2.1 Specification.
 **
-** $Date$ $Revision$
+** $Date: 2005/02/24 22:36:52 $ $Revision: 1.1.1.1 $
 */
 /*
-** $Header: //depot/main/gfx/lib/glu/libnurbs/nurbtess/definitions.h#4 $
+** $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/nurbtess/definitions.h,v 1.1.1.1 2005/02/24 22:36:52 akosut Exp $
 */
 
 #ifndef _DEFINITIONS_H

@@ -1,5 +1,5 @@
 /* x-hook.c
-   $Id: x-hook.c,v 1.1.1.1 2004/07/15 23:10:11 jharper Exp $
+   $Id: x-hook.c,v 1.1.1.1 2005/02/24 22:39:03 akosut Exp $
 
    Copyright (c) 2003 Apple Computer, Inc. All rights reserved.
 

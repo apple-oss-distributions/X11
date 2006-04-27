@@ -2,7 +2,7 @@
 /*
  * $Workfile: nsc_gx1_dga.c $
  * $Revision: 1.1.1.1 $
- * $Author: jharper $
+ * $Author: akosut $
  * 
  * File contents: DGA(Direct Acess Graphics mode) is feature of
  *                XFree86 that allows the program to access directly to video
