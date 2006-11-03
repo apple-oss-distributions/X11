@@ -31,10 +31,10 @@
 ** published by SGI, but has not been independently verified as being
 ** compliant with the OpenGL(R) version 1.2.1 Specification.
 **
-** $Date: 2005/02/24 22:36:48 $ $Revision: 1.1.1.1 $
+** $Date$ $Revision$
 */
 /*
-** $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/interface/insurfeval.cc,v 1.1.1.1 2005/02/24 22:36:48 akosut Exp $
+** $Header: //depot/main/gfx/lib/glu/libnurbs/interface/insurfeval.cc#4 $
 */
 /* $XFree86: xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/interface/insurfeval.cc,v 1.3 2003/10/22 19:20:55 tsi Exp $ */
 

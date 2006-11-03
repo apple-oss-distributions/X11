@@ -35,8 +35,8 @@
 /*
  * subdivider.h
  *
- * $Date: 2005/02/24 22:36:51 $ $Revision: 1.1.1.1 $
- * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/internals/subdivider.h,v 1.1.1.1 2005/02/24 22:36:51 akosut Exp $
+ * $Date$ $Revision$
+ * $Header: //depot/main/gfx/lib/glu/libnurbs/internals/subdivider.h#5 $
  */
 
 #ifndef __glusubdivider_h_

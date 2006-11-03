@@ -31,10 +31,10 @@
 ** published by SGI, but has not been independently verified as being
 ** compliant with the OpenGL(R) version 1.2.1 Specification.
 **
-** $Date: 2005/02/24 22:36:52 $ $Revision: 1.1.1.1 $
+** $Date$ $Revision$
 */
 /*
-** $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/nurbtess/gridWrap.h,v 1.1.1.1 2005/02/24 22:36:52 akosut Exp $
+** $Header: //depot/main/gfx/lib/glu/libnurbs/nurbtess/gridWrap.h#4 $
 */
 
 #ifndef _GRIDWRAP_H

@@ -1,5 +1,5 @@
 /* X11Application.h -- subclass of NSApplication to multiplex events
-   $Id: X11Application.h,v 1.1.1.1 2005/02/24 22:39:00 akosut Exp $
+   $Id: X11Application.h,v 1.26 2003/08/08 19:16:13 jharper Exp $
 
    Copyright (c) 2002 Apple Computer, Inc. All rights reserved.
 
@@ -98,5 +98,6 @@ extern int X11EnableKeyEquivalents;
 #define PREFS_FULLSCREEN_HOTKEYS "fullscreen_hotkeys"
 #define PREFS_SWAP_ALT_META	"swap_alt_meta"
 #define PREFS_XP_OPTIONS	"xp_options"
+#define PREFS_ENABLE_STEREO	"enable_stereo"
 
 #endif /* X11APPLICATION_H */

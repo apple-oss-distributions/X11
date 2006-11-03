@@ -35,8 +35,8 @@
 /*
  * trimline.h
  *
- * $Date: 2005/02/24 22:36:52 $ $Revision: 1.1.1.1 $
- * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/internals/trimline.h,v 1.1.1.1 2005/02/24 22:36:52 akosut Exp $
+ * $Date$ $Revision$
+ * $Header: //depot/main/gfx/lib/glu/libnurbs/internals/trimline.h#5 $
  */
 
 #ifndef __glutrimline_h_

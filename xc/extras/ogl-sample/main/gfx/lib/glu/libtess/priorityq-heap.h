@@ -35,8 +35,8 @@
 /*
 ** Author: Eric Veach, July 1994.
 **
-** $Date: 2005/02/24 22:36:54 $ $Revision: 1.1.1.1 $
-** $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libtess/priorityq-heap.h,v 1.1.1.1 2005/02/24 22:36:54 akosut Exp $
+** $Date$ $Revision$
+** $Header: //depot/main/gfx/lib/glu/libtess/priorityq-heap.h#5 $
 */
 
 #ifndef __priorityq_heap_h_

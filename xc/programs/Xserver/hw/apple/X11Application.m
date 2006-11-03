@@ -1,5 +1,5 @@
 /* X11Application.m -- subclass of NSApplication to multiplex events
-   $Id: X11Application.m,v 1.1.1.1 2005/02/24 22:39:00 akosut Exp $
+   $Id: X11Application.m,v 1.59 2006/09/06 21:19:32 jharper Exp $
 
    Copyright (c) 2002 Apple Computer, Inc. All rights reserved.
 
@@ -38,7 +38,7 @@
 #define Cursor X_Cursor
 # include "quartz.h"
 # define _APPLEWM_SERVER_
-# include "applewm.h"
+# include "applewm-impl.h"
 # include "X.h"
 #undef Cursor
 #undef WindowPtr
@@ -314,6 +314,9 @@ message_kit_thread (SEL selector, NSObject *arg)
 		_appFlags._active = YES;
 
 		[self activateX:YES];
+
+		if ([e data2] & 0x10)
+		    QuartzMessageMainThread (kXquartzBringAllToFront, 0);
 	    }
 	    break;
 
@@ -696,6 +699,7 @@ cfarray_to_nsarray (CFArrayRef in)
 - (void) read_defaults
 {
     extern int darwinFakeButtons;
+	extern Bool enable_stereo;
     const char *tem;
 
     quartzUseSysBeep = [self prefs_get_boolean:@PREFS_SYSBEEP
@@ -734,6 +738,9 @@ cfarray_to_nsarray (CFArrayRef in)
 
     quartzDesiredDepth = [self prefs_get_integer:@PREFS_DEPTH
 			  default:quartzDesiredDepth];
+
+    enable_stereo = [self prefs_get_boolean:@PREFS_ENABLE_STEREO
+		             default:false];   
 }
 
 /* This will end up at the end of the responder chain. */
@@ -993,7 +1000,8 @@ send_nsevent (NSEventType type, NSEvent *e)
 	NSRect screen;
 	NSPoint location;
 	NSWindow *window;
-	int pointer_x, pointer_y, count;
+	int pointer_x, pointer_y;
+	float count;
 
     case NSLeftMouseDown:
 	xe.u.u.type = ButtonPress;
@@ -1087,8 +1095,8 @@ send_nsevent (NSEventType type, NSEvent *e)
     case NSScrollWheel:
 	xe.u.keyButtonPointer.state = convert_flags ([e modifierFlags]);
 	count = [e deltaY];
-	xe.u.u.detail = count > 0 ? 4 : 5;
-	for (count = abs (count); count-- > 0;)
+	xe.u.u.detail = count > 0.0f ? 4 : 5;
+	for (count = fabs (count); count > 0.0; count = count - 1.0f)
 	{
 	    xe.u.u.type = ButtonPress;
 	    DarwinEnqueueEvent (&xe);

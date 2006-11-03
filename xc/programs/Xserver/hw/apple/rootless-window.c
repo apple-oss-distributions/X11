@@ -42,7 +42,7 @@
 #include "x-hash.h"
 #include "x-list.h"
 #define _APPLEWM_SERVER_
-#include "applewmstr.h"
+#include "applewm-impl.h"
 
 #include "fb.h"
 #include "propertyst.h"
@@ -711,6 +711,38 @@ RootlessShowAllWindows (void)
 	}
 
 	RootlessScreenExpose (pScreen);
+    }
+}
+
+void
+RootlessOrderAllWindows (void)
+{
+    int i;
+    ScreenPtr pScreen;
+    WindowPtr pWin;
+    RootlessWindowRec *winRec;
+
+    if (windows_hidden)
+	return;
+
+    for (i = 0; i < screenInfo.numScreens; i++)
+    {
+	pScreen = screenInfo.screens[i];
+	pWin = WindowTable[i];
+	if (pScreen == NULL || pWin == NULL)
+	    continue;
+
+	for (pWin = pWin->firstChild; pWin != NULL; pWin = pWin->nextSib)
+	{
+	    if (!pWin->realized)
+		continue;
+
+	    winRec = rootlessEnsureFrame (pWin);
+	    if (winRec == NULL)
+		continue;
+
+	    RootlessReorderWindow (pWin);
+	}
     }
 }
 

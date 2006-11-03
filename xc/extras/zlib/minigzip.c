@@ -13,7 +13,7 @@
  * or in pipe mode.
  */
 
-/* @(#) $Id: minigzip.c,v 1.1.1.1 2005/02/24 22:36:56 akosut Exp $ */
+/* @(#) $Id: minigzip.c,v 1.1 2004/07/15 22:46:32 jharper Exp $ */
 
 #include <stdio.h>
 #include "zlib.h"

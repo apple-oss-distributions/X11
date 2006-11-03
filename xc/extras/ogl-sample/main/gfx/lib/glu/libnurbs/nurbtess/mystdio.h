@@ -35,8 +35,8 @@
 /*
  * mystdio.h
  *
- * $Date: 2005/02/24 22:36:52 $ $Revision: 1.1.1.1 $
- * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/nurbtess/mystdio.h,v 1.1.1.1 2005/02/24 22:36:52 akosut Exp $
+ * $Date$ $Revision$
+ * $Header: //depot/main/gfx/lib/glu/include/mystdio.h#1 $
  */
 /* $XFree86: xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/nurbtess/mystdio.h,v 1.2 2003/10/22 19:20:57 tsi Exp $ */
 

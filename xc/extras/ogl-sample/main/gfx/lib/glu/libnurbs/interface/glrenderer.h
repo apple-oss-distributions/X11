@@ -35,8 +35,8 @@
 /*
  * glrenderer.h
  *
- * $Date: 2005/02/24 22:36:48 $ $Revision: 1.1.1.1 $
- * $Header: /cvs/karma/X11/xc/extras/ogl-sample/main/gfx/lib/glu/libnurbs/interface/glrenderer.h,v 1.1.1.1 2005/02/24 22:36:48 akosut Exp $
+ * $Date$ $Revision$
+ * $Header: //depot/main/gfx/lib/glu/libnurbs/interface/glrenderer.h#10 $
  */
 
 #ifndef __gluglrenderer_h_

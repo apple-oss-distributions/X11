@@ -1,5 +1,5 @@
 /* darwin-keyboard.h
-   $Id: darwin-keyboard.h,v 1.1.1.1 2005/02/24 22:39:00 akosut Exp $
+   $Id: darwin-keyboard.h,v 1.1 2003/01/22 01:54:10 jharper Exp $
 
    Copyright (c) 2003 Apple Computer, Inc. All rights reserved.
 
